@@ -4,5 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Mario mario = new Mario();
         mario.pegarCogumelo();
+        mario.levarDano();
+        mario.pegarCogumelo();
+        mario.pegarPena();
+        mario.pegarFlor();
         }
     }
